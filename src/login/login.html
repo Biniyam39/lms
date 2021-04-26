@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ASTU Library</title>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+  </head>
+  <body>
+    <div class="login-form">
+      <form action="./registration.html" method="post">
+        <div>
+          <label for="username">user name:</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter Username"
+            required
+          />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="text" name="password" placeholder="Enter Password" />
+        </div>
+        <button type="submit" onsubmit="preventDefault()">Login</button>
+        <button
+          type="submit"
+          onsubmit="preventDefault()"
+          action="./registration.html"
+          method="post"
+        >
+          Regester
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
